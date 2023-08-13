@@ -1,0 +1,14 @@
+name: General_v2
+title: General_v2
+username:
+account: mbonip
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5718051
+bundleId: 5610220
+url: https://mbonip.shinyapps.io/General_v2/
+when: 1645631612.48727
+lastSyncTime: 1645631612.48727
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: General .docx|server_before_gif.R|server_completo_br.R|server_eng.R|server_funcionando_liso.R|server_liso_semsom.R|tips.txt|ui_eng.R
