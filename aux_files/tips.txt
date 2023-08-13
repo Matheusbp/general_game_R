@@ -1,0 +1,18 @@
+Aux_jogo é rodada_dado é a jogada em que está, vai de 0 a 2 (mas pode se estender se o jogador quiser)
+
+aux_inicio_sever é um auxiliar para colocar o selecionadados (ficamdados) alie depois atualiza. ele começa com 0 e depois vira 1 até o fim do jogo
+
+aux_inicio_jogo é um auxliar de quando a primeira jogada foi feita ai coloac as tabelas para aparecer
+
+input_linhas é as.character nome das linhas e o aux_inputlinhas é um auxiliar para quando jogar os dados e o inputlinhas atualiza para 1
+
+
+n_jogada_dado <- 0 #qual rodada do player está
+
+escolhas <- c()
+
+aux_inicio_server <- 0 #auxilia na colocacao do ficamdados
+
+aux_players <- 0 #auxilia no updateradiobuttons de quem ta jogadno
+
+aux_inicio_jogo <- 0 #avisa quando primeira jogada é feita e vira 1
