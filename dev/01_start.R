@@ -59,8 +59,8 @@ devtools::build_readme()
 # golem::remove_favicon() # Uncomment to remove the default favicon
 
 ## Add helper functions ----
-golem::use_utils_ui(with_test = F)
-golem::use_utils_server(with_test = F)
+# golem::use_utils_ui(with_test = F)
+# golem::use_utils_server(with_test = F)
 
 # You're now set! ----
 

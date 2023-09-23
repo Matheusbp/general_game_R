@@ -16,12 +16,12 @@
 ## Dependencies ----
 ## Amend DESCRIPTION with dependencies read from package code parsing
 ## install.packages('attachment') # if needed.
-renv::restore()
+# renv::restore()
 # renv::install("attachment")
 renv::snapshot() # aqui eu instalei o que precisa e ai
 # renv::isolate()
 #
-attachment::att_amend_desc()
+# attachment::att_amend_desc()
 
 ## Add modules ----
 ## Create a module infrastructure in R/

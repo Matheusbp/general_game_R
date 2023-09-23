@@ -1,8 +1,7 @@
 Package: generalapp
 Title: General
 Version: 2.0.0.0
-Authors@R: 
-    person("Matheus Bonifácio", "Pamplona", , "matheusbpamplona@outlook.com", role = c("cre", "aut"))
+Authors@R: person('Matheus Bonifácio', 'Pamplona', email = 'matheusbpamplona@outlook.com', role = c('cre', 'aut'))
 Description: Jogo de General
 License: MIT + file LICENSE
 URL: https://github.com/Matheusbp/general_game_R

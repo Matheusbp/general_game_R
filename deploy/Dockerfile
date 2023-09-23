@@ -1,4 +1,5 @@
 FROM generalapp_base
+COPY renv.lock renv.lock
 RUN R -e 'renv::restore()'
 COPY generalapp_*.tar.gz /app.tar.gz
 RUN R -e 'remotes::install_local("/app.tar.gz",upgrade="never")'

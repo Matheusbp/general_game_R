@@ -1,10 +1,19 @@
+#' The application User-Interface
+#'
+#' @param request Internal parameter for `{shiny}`.
+#'     DO NOT REMOVE.
+#' @import shiny
+#' @noRd
+app_ui <- function(request) {
+
+
 library("shiny")
 library("shinyjs")
 inline <- function(x) {
   tags$div(style = "display:inline-block;", x)
 }
 
-ui <- fluidPage(
+ fluidPage(
   fluidRow(
     # p funcionar o hide/show
     useShinyjs(),
@@ -31,4 +40,6 @@ ui <- fluidPage(
       tags$div(id = "daquiprabaixotabela"),
     )
   )
-)
+ )
+
+}

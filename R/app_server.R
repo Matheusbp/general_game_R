@@ -1,3 +1,16 @@
+#' The application server-side
+#'
+#' @param input,output,session Internal parameters for {shiny}.
+#'     DO NOT REMOVE.
+#' @import shiny
+#' @noRd
+app_server <- function(input, output, session) {
+
+  #aux funcion ui
+  inline <- function(x) {
+    tags$div(style = "display:inline-block;", x)
+  }
+
 # auxiliar objects
 players <- c()
 
@@ -129,9 +142,6 @@ folha_generator <- function(df) {
 
   return(folha)
 }
-
-server <- function(input, output, session) {
-
 
   # list of dices' choices
   lista_choicenames <- list(1, 2, 3, 4, 5)
