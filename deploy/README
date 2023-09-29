@@ -1,4 +1,8 @@
 docker build -f Dockerfile_base --progress=plain -t generalapp_base .
 docker build -f Dockerfile --progress=plain -t generalapp:latest .
-docker run -p 80:80 generalapp:latest
-# then go to 127.0.0.1:80
+docker run -d -p 3838:3838 generalapp:latest
+# then go to 127.0.0.1:3838
+
+docker build -f Dockerfile --progress=plain -t generalapp:latest .
+docker run -d -p 3838:3838 generalapp:latest
+# then go to 127.0.0.1:3838
